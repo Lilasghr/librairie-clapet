@@ -475,7 +475,7 @@ button {
 
 .page-single__title {
   margin: 0;
-  font-size: 5.6em;
+  font-size: 56px;
   line-height: 1.4;
   font-weight: 500;
 }
@@ -501,4 +501,42 @@ button {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 75px;
+}
+/**
+* conseils-de-lecture
+*/
+.citation {
+}
+.quote {
+  font-family: Montserrat, sans-serif;
+  font-weight: 200;
+  color: #e8a27d;
+  font-size: 24px;
+  margin-left: 32px;
+  border-left: 4px solid #d9d9d9;
+  padding-left: 8px;
+}
+
+.author {
+  font-size: 16px;
+  color: #1a1a1a;
+  text-align: right;
+  margin-top: 60px;
+  margin-bottom: 75px;
+}
+.description {
+  font-family: Work Sans;
+  font-size: 20px;
+  color: #1a1a1a;
+  text-align: justify;
+}
+.box {
+  display: flex;
+  flex: 1 1 auto;
+}
+.img-couverture {
+  min-width: 50%;
+}
+.two {
+  flex: 1 1 auto;
 }
