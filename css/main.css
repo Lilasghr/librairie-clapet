@@ -96,7 +96,7 @@ button {
 .container {
   margin: auto;
   padding: 0 15px;
-  width: 960px;
+  width: 1500px;
   max-width: 100%;
 }
 
@@ -203,7 +203,6 @@ button {
   text-align: center;
   margin-top: 85px;
   margin-bottom: 60px;
-
 }
 
 .full-width {
@@ -211,8 +210,10 @@ button {
   width: 100%;
   margin: 50px auto;
 }
-
-
+.image-left {
+  float: left;
+  margin-right: 40px;
+}
 /**
 * -----------
 * Components
