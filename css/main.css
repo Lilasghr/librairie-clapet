@@ -483,6 +483,21 @@ button {
   text-align: center;
 }
 
+.chapo-decouverte {
+  width: 960px;
+  height: 116px;
+  font-size: 25px;
+  margin-top: 95px;
+  margin-bottom: 50px;
+}
+.separator__decouverte {
+  margin-top: 75px;
+  margin-bottom: 52px;
+}
+
+.map {
+width: 100%;
+}
 /**
 * index
 */
@@ -564,5 +579,7 @@ width: 660px;
 height: 365px;
 float: right;
 }
-
+/**
+* page actu
+*/
 
