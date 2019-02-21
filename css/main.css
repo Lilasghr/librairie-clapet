@@ -210,10 +210,6 @@ button {
   width: 100%;
   margin: 50px auto;
 }
-.image-left {
-  float: left;
-  margin-right: 40px;
-}
 /**
 * -----------
 * Components
@@ -310,11 +306,11 @@ button {
 
 .honey-pot-list {
   text-align: center;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 
 .honey-pot {
-  display: inline-block;
   margin: 0 30px 35px 30px;
   text-align: center;
 }
@@ -370,7 +366,6 @@ button {
   -o-transition-delay: 0ms;
   transition-delay: 0ms;
 }
-
 
 .news__thumbnail {
   margin-bottom: 13px;
@@ -457,13 +452,6 @@ button {
 }
 
 /**
-* -----------
-* Trumps
-* -----------
-*/
-
-
-/**
 * single
 */
 .page-single {
@@ -506,8 +494,6 @@ button {
 /**
 * conseils-de-lecture
 */
-.citation {
-}
 .quote {
   font-family: Montserrat, sans-serif;
   font-weight: 200;
@@ -533,11 +519,50 @@ button {
 }
 .box {
   display: flex;
-  flex: 1 1 auto;
 }
-.img-couverture {
+.img-cover {
   min-width: 50%;
+  margin-right: 40px;
+  }
+
+.img-cover img{
+  width: 100%;
 }
-.two {
-  flex: 1 1 auto;
+
+
+.separator__conseils {
+  margin-top: 99px;
 }
+
+/**
+* page actu
+*/
+
+.container-actu {
+  margin: auto;
+  padding: 0 15px;
+  width: 1300px;
+  max-width: 100%;
+  height: 100%;
+}
+
+.news--main--actu{
+  padding-bottom: 35px;
+  margin-bottom: 38px;
+  width: 1300px;
+  height: 1000px;
+}
+.news__image__actu{
+  width: 588px;
+  height: 365px;
+  margin-right: 26px;
+  float: left;
+}
+
+.news__content__actu{
+width: 660px;
+height: 365px;
+float: right;
+}
+
+
