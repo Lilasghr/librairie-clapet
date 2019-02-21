@@ -568,6 +568,7 @@ width: 100%;
   height: 1000px;
 }
 .news__image__actu{
+  grid-column: span 4
   width: 588px;
   height: 365px;
   margin-right: 26px;
@@ -583,3 +584,37 @@ float: right;
 * page actu
 */
 
+.news-list-actu{
+  display: grid;
+  justify-content: center;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 35px;
+  grid-column: span 4
+}
+
+/**
+*grille 4 place
+*/
+
+.news-big {
+  grid-column: span 4;
+}
+
+.news-big .news__link{
+display: flex;
+}
+
+.news-big3G {
+  grid-column: span 2;
+}
+.news-big3G .news__link{
+  display: flex;
+  }
+  .news-big3D {
+    grid-column: span 2;
+  }
+  .news-big3G .news__link{
+    display: flex;
+    }
